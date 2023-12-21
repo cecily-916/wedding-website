@@ -251,13 +251,14 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
+  height: auto;
+  min-width: 50px;
   background: url('../img/hero.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
+  position: sticky;
 
   /*.rsvp-btn {
     position: absolute;
